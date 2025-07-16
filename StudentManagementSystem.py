@@ -67,12 +67,12 @@ Press '5' to exit""")
                 if details_update == 1:
                     name_update = input("Enter the updated name: ")
                     details[update_roll]["name"] = name_update
-                    print(f"The details of the {update_roll} roll number has been successfully updated.")
+                    print(f"The details of roll number {update_roll} has been successfully updated.")
                     break
                 elif details_update == 2:
                     course_update = input("Enter the updated course: ")
                     details[update_roll]["course"] = course_update
-                    print(f"The details of the {update_roll} roll number has been successfully updated.")
+                    print(f"The details of roll number {update_roll} has been successfully updated.")
                     break
                 else:
                     print("Enter a valid response.")  
